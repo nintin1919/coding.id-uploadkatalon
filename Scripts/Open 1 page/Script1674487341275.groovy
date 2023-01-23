@@ -21,11 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Page_The Internet/Page_The Internet/Page_The Internet/a_File Upload'))
-
-WebUI.uploadFile(findTestObject('Page_The Internet/Page_The Internet/input_File Uploader_file'), 'D:\\02. Learning\\!Bootcamp QA\\Materi Tahap 2\\.Latihan\\Katalon\\Capture.png')
-
-WebUI.click(findTestObject('Object Repository/Page_The Internet/input_File Uploader_file-submit'))
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_AB Testing'))
 
 WebUI.closeBrowser()
 
